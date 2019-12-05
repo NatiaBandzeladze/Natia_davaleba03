@@ -37,11 +37,17 @@ body {
 .text-box  p{
 	margin: 0 0 50px;
 }
-.myfisrtmap{
-	display: inline-block;
-	
-}
 .contact-info{
+	display: inline-block;
+}
+#map{
+	height: 466px;
+	width: 874px;
+}
+.map{
+	display: inline-block;
+}
+	.contact-info{
 	display: inline-block;
 }
 .contact-box{
