@@ -37,3 +37,60 @@ body {
 .text-box  p{
 	margin: 0 0 50px;
 }
+.contact-box{
+		margin-top: 120px;
+}
+.footer-box div{
+	display: inline-block;
+	background-color: #F2F2F2;
+}
+.footer-box h4{
+	display: inline-block;
+	font-size: 24px;
+	border-right: solid; 
+	margin: 0px 0px 50px 0px;
+	padding: 10px;
+	}
+.footer-box h5{
+	display: inline-block;
+	width: 1600px;
+    font-size: 24px;
+    margin: 0px 0px 50px 0px;
+	padding: 10px;
+}
+.footer-box h6{
+	color: #3D58A6;
+    padding: 20px 275px 20px 50px;
+}
+.footer-box img{
+	height: 110px;
+	display: inline-block;
+	vertical-align: middle;
+    padding: 0px 73px 35px 38px;
+}
+.footer-box p{
+	color:  #3D58A6;
+	display: inline-block;
+	width: 335px;
+	vertical-align: middle;
+    padding: 0px 15px 35px 0px;
+}
+.soc-logo{
+	display:block;
+	background-color: white;
+	margin: 100px 0;
+  }
+ .fb-logo{
+	background-color: white;
+	width: 24px;
+	border-right: #3D58A6 solid;
+	padding: 0px 35px 0px 11px;
+    margin: 68px 35px 90px 0px;
+	
+ }
+ .youtube-logo{
+	background-color: white;
+	width: 34px;
+	padding: 0px 35px 0px 0px;
+    margin: 68px 35px 90px 0px;
+ }
