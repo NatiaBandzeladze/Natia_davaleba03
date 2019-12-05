@@ -37,6 +37,13 @@ body {
 .text-box  p{
 	margin: 0 0 50px;
 }
+.myfisrtmap{
+	display: inline-block;
+	
+}
+.contact-info{
+	display: inline-block;
+}
 .contact-box{
 		margin-top: 120px;
 }
@@ -82,7 +89,7 @@ body {
   }
  .fb-logo{
 	background-color: white;
-	width: 24px;
+	width: 14px;
 	border-right: #3D58A6 solid;
 	padding: 0px 35px 0px 11px;
     margin: 68px 35px 90px 0px;
@@ -90,7 +97,10 @@ body {
  }
  .youtube-logo{
 	background-color: white;
-	width: 34px;
+	width: 24px;
 	padding: 0px 35px 0px 0px;
     margin: 68px 35px 90px 0px;
+ }
+ section{
+	 margin: 30px 0 0 0;
  }
