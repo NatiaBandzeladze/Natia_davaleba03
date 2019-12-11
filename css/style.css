@@ -23,11 +23,7 @@ body {
 .active {
 	color: #EE4036;
 }
-.search-bar {
-	background: red;
-    display: inline-block;
-    width: 300px;
-}
+
 .text-box {
 	display: inline-block;
     width: 800px;
