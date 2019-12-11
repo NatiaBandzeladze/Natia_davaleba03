@@ -23,7 +23,21 @@ body {
 .active {
 	color: #EE4036;
 }
-
+.title-h3{
+	margin: 120px 0 30px;
+}
+.boxes-main{
+	background-color:#F2F2F2;
+}
+.title-h4{
+	color: #3D58A6;
+}
+.box1{
+	display: inline-block;
+}
+.box2{
+	display: inline-block;
+}
 .text-box {
 	display: inline-block;
     width: 800px;
@@ -36,54 +50,19 @@ body {
 .contact-info{
 	display: inline-block;
 }
-#map{
-	height: 466px;
-	width: 874px;
-}
-.map{
+.box1{
 	display: inline-block;
 }
-	.contact-info{
+.box2{
 	display: inline-block;
+}
+.box-img{
+	height: 130px;
 }
 .contact-box{
 		margin-top: 120px;
 }
-.footer-box div{
-	display: inline-block;
-	background-color: #F2F2F2;
-}
-.footer-box h4{
-	display: inline-block;
-	font-size: 24px;
-	border-right: solid; 
-	margin: 0px 0px 50px 0px;
-	padding: 10px;
-	}
-.footer-box h5{
-	display: inline-block;
-	width: 1600px;
-    font-size: 24px;
-    margin: 0px 0px 50px 0px;
-	padding: 10px;
-}
-.footer-box h6{
-	color: #3D58A6;
-    padding: 20px 275px 20px 50px;
-}
-.footer-box img{
-	height: 110px;
-	display: inline-block;
-	vertical-align: middle;
-    padding: 0px 73px 35px 38px;
-}
-.footer-box p{
-	color:  #3D58A6;
-	display: inline-block;
-	width: 335px;
-	vertical-align: middle;
-    padding: 0px 15px 35px 0px;
-}
+
 .soc-logo{
 	display:block;
 	background-color: white;
