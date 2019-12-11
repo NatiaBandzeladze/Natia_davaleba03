@@ -1,59 +1,54 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>github davaleba</title>
-	</head>
-	<body>
-		<header>
-			<a class="logo" href="contact.html">
-				<img src="img/logo.svg" alt="logo">
-			</a>
-			<nav class="navbar">
-				<ul>
-					<li>
-						<a href="index.html">მთავარი</a>
-					</li>
-					<li>
-                        <a href="news.html">სიახლეები</a>
-					</li>
-					<li>
-						<a href="contact.html"><span class="active">კონტაქტი</span></a>
-					</li>
-				</ul>
-			</nav>
-			<div class="search-bar">search bar</div>
-		</header>
-		<section>
-			<div> 
-				<div>
-					<h3 class="contact-info">საკონტაქტო ინფორმაცია</h3>
-					<p></p>
 
-				</div>
-				<div class="map" id="map"></div>
-				<script>
-					function initMap() {
-						var location = {lat: - 41.715137, lng: 44.827095};
-						var map = new google.maps.Map(document.getElementById("map"), {
-							zoom: 4,
-							center: location
-							});
-						var marker = new google.maps.marker({position: location,
-						map:map});
-						}
-				</script>
-				<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYzXj5wF46mChyyc5xwfb2QT1QEZ9VN8&callback=initMap"></script>
-		</section>
-		<footer class="contact-box">
-				<div class="footer-box">
-					<span class="soc-logo">
-						<a href="https://www.facebook.com/" target="_blank"><img class="fb-logo" src="img/fb-logo.svg" alt="Facebook-logo"> </a>
-						<a href="https://www.youtube.com/" target="_b;ank"><img class="youtube-logo" src="img/youtube-logo.svg" alt="youtube-logo"></a>
-					</span>
-				</div>
-			</footer>
-		
-	</body>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>github davaleba</title>
+</head>
+
+<body>
+	<header>
+		<a class="logo" href="contact.html">
+			<img src="img/logo.svg" alt="logo">
+		</a>
+		<nav class="navbar">
+			<ul>
+				<li>
+					<a href="index.html">მთავარი</a>
+				</li>
+				<li>
+					<a href="news.html">სიახლეები</a>
+				</li>
+				<li>
+					<a href="contact.html"><span class="active">კონტაქტი</span></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<div class="contact-box">
+			<div class="contact-info">
+				<h3>საკონტაქტო ინფორმაცია</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odit vitae minima sapiente,
+					aliquam ab soluta repudiandae culpa. Necessitatibus assumenda exercitationem voluptas molestiae amet
+					delectus ad officiis tenetur deleniti in?</p>
+			</div>
+			<div class="map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11912.545125893297!2d44.7850189!3d41.717578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xced15c2c7992ceb5!2sGeoLab!5e0!3m2!1ska!2sge!4v1576076903568!5m2!1ska!2sge"
+					width="874" height="466" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+	</section>
+
+	<footer class="contact-box">
+		<a class="fb-logo" href="https://www.facebook.com/" target="_blank"><img src="img/fb-logo.svg"
+				alt="Facebook-logo"> </a>
+		<a class="youtube-logo" href="https://www.youtube.com/" target="_b;ank"><img src="img/youtube-logo.svg"
+				alt="youtube-logo"></a>
+
+	</footer>
+
+</body>
+
 </html>

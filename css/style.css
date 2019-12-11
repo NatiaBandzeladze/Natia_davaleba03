@@ -1,6 +1,7 @@
 body {
 	padding: 25px 30px;
 }
+
 .logo {
 	vertical-align: middle;
 }
@@ -11,6 +12,7 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 0 0 20px;
+	font-family: 'BPG Nino Mtavruli Bold'
 }
 .navbar li{
 	display: inline-block;
@@ -25,6 +27,7 @@ body {
 }
 .banner{
 	width: 1170px;
+	margin: 30px 0 0 0 ;
 }
 .box{
 	background-color:#F2F2F2;
@@ -50,7 +53,7 @@ body {
 }
 .box span{
 	height: 100px; width:90px;
-	padding: 12px 0 41px 36px;
+	margin: 12px 0 41px 36px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -71,33 +74,38 @@ body {
 .text-box  p{
 	margin: 0 0 50px;
 }
+.contact-box{
+	margin: 30px 0 0 0;
+}
 .contact-info{
 	display: inline-block;
+	vertical-align: top;
 }
+.contact-info h3{
+	font-size: 20px;
+	color: #3D58A6;
 
+}
+.contact-info{
+	width: 348px;
+}
+.map{
+	display: inline-block;
+}
 .contact-box{
 		margin-top: 120px;
 }
 
-.soc-logo{
-	display:block;
+
+.fb-logo img{
 	background-color: white;
-	margin: 100px 0;
-  }
- .fb-logo{
-	background-color: white;
-	width: 14px;
+	height: 30px;
 	border-right: #3D58A6 solid;
-	padding: 0px 35px 0px 11px;
-    margin: 68px 35px 90px 0px;
-	
+	padding: 0 35px 0 11px;    
  }
- .youtube-logo{
-	background-color: white;
-	width: 24px;
-	padding: 0px 35px 0px 0px;
-    margin: 68px 35px 90px 0px;
- }
- section{
-	 margin: 30px 0 0 0;
+
+.youtube-logo img{
+	height: 30px;
+	padding: 0 0 0 35px;
+    
  }
